@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>hover link</title>
+        <style>
+            @font-face {
+                font-family: kakao;
+                src: url("../h_font/fonts/KakaoBig-Bold-v1.0.woff2")
+                    format("woff2");
+            }
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-family: kakao;
+                font-size: 200px;
+                color: black;
+                transition: all 2s;
+            }
+            a:hover {
+                font-size: 300px;
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <a
+            href="https://docs.oracle.com/en/java/javase/17/docs/api"
+            target="_blank"
+            >Java API</a
+        >
+    </body>
+</html>

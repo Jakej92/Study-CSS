@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Text Hover Effect</title>
+        <style>
+            @font-face {
+                font-family: kakao;
+                src: url("../h_font/fonts/KakaoBig-Bold-v1.0.woff2")
+                    format("woff2");
+            }
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                font-family: kakao;
+                background-color: black;
+            }
+
+            .hover-text {
+                font-size: 150px;
+                color: white;
+                transition: 1s;
+            }
+
+            .hover-text:hover {
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <p class="hover-text">Hover over me!</p>
+    </body>
+</html>
